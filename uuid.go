@@ -2,7 +2,6 @@ package uuid
 
 import (
   "fmt"
-//  "encoding/base64"
   "crypto/rand"
   "crypto/sha1"
   "time"
