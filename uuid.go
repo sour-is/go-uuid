@@ -109,7 +109,7 @@ func V6(namespace string, origin bool) string {
 
 func Bytes(uuid string) (n []byte) {
 	n = make([]byte, 0, 16)
-	
+
 	half := false
 	for _, c := range uuid {
 		x, t := fromHexChar(c)

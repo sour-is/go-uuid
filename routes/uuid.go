@@ -1,9 +1,9 @@
 package routes
 
 import (
-	"sour.is/x/httpsrv"
-	"net/http"
 	"fmt"
+	"net/http"
+	"sour.is/x/httpsrv"
 	"sour.is/x/uuid"
 )
 
@@ -58,7 +58,7 @@ func v6(w http.ResponseWriter, r *http.Request) {
 	}
 
 	origin = false
-	if ok := r.URL.Query().Get("origin") ; ok == "true" {
+	if ok := r.URL.Query().Get("origin"); ok == "true" {
 		origin = true
 	}
 
