@@ -12,19 +12,19 @@ func init() {
 		{
 			"v4",
 			"GET",
-			"/uuid/v4",
+			"/v1/uuid/v4",
 			v4,
 		},
 		{
 			"v5",
 			"GET",
-			"/uuid/v5",
+			"/v1/uuid/v5",
 			v5,
 		},
 		{
 			"v6",
 			"GET",
-			"/uuid/v6",
+			"/v1/uuid/v6",
 			v6,
 		},
 	})
